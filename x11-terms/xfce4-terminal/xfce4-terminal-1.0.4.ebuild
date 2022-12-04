@@ -32,7 +32,7 @@ BDEPEND="
 	sys-devel/gettext
 	virtual/pkgconfig"
 
-DOCS=( AUTHORS ChangeLog HACKING NEWS README THANKS )
+DOCS=( AUTHORS ChangeLog HACKING NEWS THANKS )
 
 src_configure() {
 	local myconf=(
