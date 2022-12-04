@@ -36,9 +36,7 @@ DOCS=( AUTHORS ChangeLog HACKING NEWS THANKS )
 src_configure() {
 	local myconf=(
 		$(use_with utempter)
-	)
-
-	econf "${myconf[@]}"
+	)	econf "${myconf[@]}"
 }
 
 pkg_postinst() {
